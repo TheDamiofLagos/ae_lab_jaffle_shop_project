@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: base_jaffle_shop__customers
+    description: "Base jaffle shop customers table from snowflake"
+    columns:
+      - name: customer_id
+        description: "Unique ID identifying each customers"
+        tests:
+          - unique
+          - not_null
+      - name: first_name
+      - name: last_name
+          
+          
